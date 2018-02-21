@@ -1,5 +1,7 @@
 # terraform-google-storage-static-website
-A Terraform Module for a static website hosted on Google Cloud Storage
+A Terraform Module for a static website hosted on Google Cloud Storage. 
+
+This module will create a bucket and assign it the proper ACLs to host a static website. When using the module, the bucket name should be the domain name of the website that will be created. Before creating the bucket, the domain will also need to have been verified. 
 
 ## Usage
 
