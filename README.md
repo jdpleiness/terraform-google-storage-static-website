@@ -3,7 +3,7 @@ A Terraform Module for a static website hosted on Google Cloud Storage.
 
 This module will create a bucket and assign it the proper ACLs to host a static website. When using the module, the bucket name should be the domain name of the website that will be created. Also ensure that domain ownership has been verified before using the module.
 
-![Static website architecture](./_docs/architecture.png)
+![Static website architecture][arc-link]
 
 ## Usage
 
@@ -20,6 +20,7 @@ module "google_storage_static_website" {
 ## License
 This code is released under the Apache 2.0 License. Please see [LICENSE][lic-link] for more details.
 
+[arc-link]: https://github.com/jdpleiness/terraform-google-storage-static-website/blob/master/_docs/architecture.png?raw=true
 [lb-link]: https://cloud.google.com/compute/docs/load-balancing/http/adding-a-backend-bucket-to-content-based-load-balancing
 [cdn-link]: https://cloudplatform.googleblog.com/2015/09/push-google-cloud-origin-content-out-to-users.html
-[lic-link]: ./LICENSE
+[lic-link]: https://github.com/jdpleiness/terraform-google-storage-static-website/blob/master/LICENSE
