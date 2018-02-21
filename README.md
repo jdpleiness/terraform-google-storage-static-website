@@ -1,8 +1,6 @@
 # terraform-google-storage-static-website
 A Terraform Module for a static website hosted on Google Cloud Storage
 
-![Static website architecture](./_docs/architecture.png)
-
 ## Usage
 
 ```HCL
@@ -12,6 +10,8 @@ module "google_storage_static_website" {
     project_id = "your-project-id"
 }
 ```
+
+![Static website architecture](./_docs/architecture.png)
 
 **Note:** Google Cloud Storage only supports HTTP. In order to serve your content through a custom domain over SSL you will need to [setup a load balancer][lb-link] or use a [third party content delivery network][cdn-link] with Cloud Storage.
 
