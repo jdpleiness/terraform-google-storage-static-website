@@ -9,7 +9,7 @@ This module will create a bucket and assign it the proper ACLs to host a static 
 
 ```HCL
 module "google_storage_static_website" {
-    source = "https://github.com/jdpleiness/terraform-google-storage-static-website"
+    source = "github.com/jdpleiness/terraform-google-storage-static-website"
     bucket_name = "your-website-domain-name"
     project_id = "your-project-id"
 }
