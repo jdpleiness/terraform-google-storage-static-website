@@ -5,11 +5,11 @@ A Terraform Module for a static website hosted on Google Cloud Storage
 
 ## Usage
 
-```ruby
+```HCL
 module "google_storage_static_website" {
     source = "https://github.com/jdpleiness/terraform-google-storage-static-website"
-    bucket_name = "__your-website-domain-name__"
-    project_id = "__your-project-id__"
+    bucket_name = "your-website-domain-name"
+    project_id = "your-project-id"
 }
 ```
 
