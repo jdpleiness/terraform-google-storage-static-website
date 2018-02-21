@@ -1,7 +1,11 @@
 # terraform-google-storage-static-website
 A Terraform Module for a static website hosted on Google Cloud Storage
 
+<<<<<<< HEAD
 ![Static website architecture](./_docs/architecture.png)
+=======
+![Static website architecture](../_docs/architecture.png)
+>>>>>>> 88b262232aa8bc897339f34fee96d40da8362e95
 
 ## Usage
 
