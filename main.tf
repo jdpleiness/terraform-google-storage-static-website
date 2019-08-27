@@ -16,6 +16,6 @@ resource "google_storage_bucket" "bucket" {
 
 resource "google_storage_default_object_acl" "default_obj_acl" {
     bucket = "${google_storage_bucket.bucket.name}"
-    role_entity = ["${var.role_entity}"]
+    role_entity = "${var.role_entity}"
 
 }
