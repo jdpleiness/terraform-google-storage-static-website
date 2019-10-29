@@ -1,8 +1,8 @@
+# terraform-google-storage-static-website
+
 [![Maintained by Jacob Pleiness](https://img.shields.io/badge/maintained%20by-%40jdpleiness-ff69b4)](https://github.com/jdpleiness)
 [![Github Actions](https://github.com/jdpleiness/terraform-google-storage-static-website/workflows/Terraform/badge.svg)](https://github.com/jdpleiness/terraform-google-storage-static-website/actions?workflow=Terraform)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.12.0-blue.svg)
-
-# terraform-google-storage-static-website
 
 A Terraform Module for a static website hosted on Google Cloud Storage.
 
