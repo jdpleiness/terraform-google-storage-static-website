@@ -1,3 +1,4 @@
+[![Maintained by Jacob Pleiness](https://img.shields.io/badge/maintained%20by-%40jdpleiness-ff69b4)](https://github.com/jdpleiness)
 [![Github Actions](https://github.com/jdpleiness/terraform-google-storage-static-website/workflows/Terraform/badge.svg)](https://github.com/jdpleiness/terraform-google-storage-static-website/actions?workflow=Terraform)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.12.0-blue.svg)
 
@@ -27,7 +28,7 @@ module "storage_static_website" {
 
 This project is maintained by [Jacob Pleiness](https://github.com/jdpleiness).
 
-[![Maintained by Jacob Pleiness](https://img.shields.io/badge/maintained%20by-%40jdpleiness-ff69b4)](https://github.com/jdpleiness) [![@jacobpleiness](https://img.shields.io/twitter/follow/jacobpleiness?label=Follow%20%40jacobpleiness%20on%20Twitter&style=social)](https://twitter.com/jacobpleiness)
+[![@jacobpleiness](https://img.shields.io/twitter/follow/jacobpleiness?label=Follow%20%40jacobpleiness%20on%20Twitter&style=social)](https://twitter.com/jacobpleiness)
 
 ## License
 This code is released under the Apache 2.0 License. Please see [LICENSE][lic-link] for more details.
