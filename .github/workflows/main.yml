@@ -1,0 +1,15 @@
+name: Terraform
+on: [push, pull_request]
+
+jobs:
+  check-format:
+    name: Check format
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v1
+
+    - name: terraform fmt
+      uses: hashicorp/terraform-github-actions/fmt@0.4.6
+      env:
+        TF_ACTION_WORKING_DIR: "."
