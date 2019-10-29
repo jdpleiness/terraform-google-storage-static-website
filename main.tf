@@ -1,3 +1,7 @@
+# ---------------------------------------------------------------------------------------------------------------------
+# CREATE GOOGLE STORAGE BUCKET
+# ---------------------------------------------------------------------------------------------------------------------
+
 resource "google_storage_bucket" "this" {
   name          = var.bucket_name
   location      = var.bucket_location
@@ -13,6 +17,10 @@ resource "google_storage_bucket" "this" {
     not_found_page   = var.not_found_page
   }
 }
+
+# ---------------------------------------------------------------------------------------------------------------------
+# CREATE BUCKET DEFAULT OBJECT ACL
+# ---------------------------------------------------------------------------------------------------------------------
 
 resource "google_storage_default_object_acl" "this" {
   bucket      = google_storage_bucket.this.name
