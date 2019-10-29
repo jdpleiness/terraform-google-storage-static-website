@@ -17,6 +17,12 @@ module "google_storage_static_website" {
 
 **Note:** Google Cloud Storage only supports HTTP. In order to serve your content through a custom domain over SSL you will need to [setup a load balancer][lb-link] or use a [third party content delivery network][cdn-link] with Cloud Storage.
 
+## Authors
+
+This project is maintained by [Jacob Pleiness](https://github.com/jdpleiness).
+
+[![Maintained by Jacob Pleiness](https://img.shields.io/badge/maintained%20by-%40jdpleiness-ff69b4)](https://github.com/jdpleiness) [![@jacobpleiness](https://img.shields.io/twitter/follow/jacobpleiness?label=Follow%20%40jacobpleiness%20on%20Twitter&style=social)](https://twitter.com/jacobpleiness)
+
 ## License
 This code is released under the Apache 2.0 License. Please see [LICENSE][lic-link] for more details.
 
