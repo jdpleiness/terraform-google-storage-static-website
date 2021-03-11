@@ -24,5 +24,5 @@ resource "google_storage_bucket" "this" {
 
 resource "google_storage_default_object_acl" "this" {
   bucket      = google_storage_bucket.this.name
-  role_entity = [var.role_entity]
+  role_entity = var.role_entity
 }
