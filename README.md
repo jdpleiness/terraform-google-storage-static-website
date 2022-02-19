@@ -15,7 +15,7 @@ This module will create a bucket and assign it the proper ACLs to host a static 
 ```HCL
 module "storage_static_website" {
   source  = "jdpleiness/storage-static-website/google"
-  version = "2.0.0"
+  version = "~> 2.0.0"
 
   bucket_name = "your-website-domain-name"
   project_id  = "your-project-id"
